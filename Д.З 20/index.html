@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Star Wars</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <input type="button" id="peopleBtn" value="Peoples" />
+      <input type="button" id="planetBtn" value="Planets" />
+      <input type="button" id="transportBtn" value="Transports" />
+    </div>
+    <div class="container">
+      <div>
+        <ul id="people"></ul>
+        <input type="button" id="more" class="hidden" value="Load More" />
+      </div>
+      <div>
+        <ul id="planets"></ul>
+        <input type="button" id="morePlanet" class="hidden" value="Load More" />
+      </div>
+      <div>
+        <ul id="transports"></ul>
+        <input type="button" id="moreTransp" class="hidden" value="Load More" />
+      </div>
+    </div>
+
+    <p id="all" class="info"></p>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>
